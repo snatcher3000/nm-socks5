@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash -n install.sh)",
+      "Bash(bash -n uninstall.sh)"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+# VPN service description for NetworkManager.
+# Installed to /usr/lib/NetworkManager/VPN/ or /etc/NetworkManager/VPN/
+# by install.sh, which replaces the @PROGRAM@ / @PLUGIN@ placeholders.
+
+[VPN Connection]
+name=socks5
+service=org.freedesktop.NetworkManager.socks5
+program=@PROGRAM@
+supports-multiple-connections=false
+
+[libnm]
+plugin=@PLUGIN@
