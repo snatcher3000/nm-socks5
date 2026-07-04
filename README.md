@@ -46,7 +46,7 @@ apps / downstream qubes
 Run **inside the VM whose NetworkManager should get the plugin**:
 
 ```bash
-sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/CHANGEME/nm-socks5/main/install.sh)"
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/snatcher3000/nm-socks5/main/install.sh)"
 ```
 
 The installer detects the environment:
@@ -154,7 +154,7 @@ In der VM ausführen, deren NetworkManager das Plugin bekommen soll
 (z. B. direkt in `sys-vpn` — überlebt dort Neustarts dank bind-dirs):
 
 ```bash
-sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/CHANGEME/nm-socks5/main/install.sh)"
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/snatcher3000/nm-socks5/main/install.sh)"
 ```
 
 Danach: Rechtsklick auf das Netzwerk-Icon → *Edit Connections…* → **+** →

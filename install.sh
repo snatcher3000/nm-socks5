@@ -4,7 +4,7 @@
 # Usage (inside the VM where NetworkManager runs, e.g. sys-vpn, or inside
 # the template it is based on):
 #
-#   sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/CHANGEME/nm-socks5/main/install.sh)"
+#   sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/snatcher3000/nm-socks5/main/install.sh)"
 #
 # In a Qubes TemplateVM (no direct network) prefix the curl with the update
 # proxy:  curl -fsSL --proxy http://127.0.0.1:8082 ...
@@ -17,7 +17,7 @@
 
 set -euo pipefail
 
-REPO_TARBALL="${NM_SOCKS5_TARBALL:-https://github.com/CHANGEME/nm-socks5/archive/refs/heads/main.tar.gz}"
+REPO_TARBALL="${NM_SOCKS5_TARBALL:-https://github.com/snatcher3000/nm-socks5/archive/refs/heads/main.tar.gz}"
 TUN2SOCKS_VERSION="${TUN2SOCKS_VERSION:-v2.5.2}"
 QUBES_PROXY="http://127.0.0.1:8082"
 
